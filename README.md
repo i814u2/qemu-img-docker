@@ -5,4 +5,4 @@ Example usage:
 
 `cd <location of image file(s)>`
 
-``docker run -it --rm=true -v `pwd`:/tmp ghcr.io/i814u2/qemu-img convert -p -f raw -O vhdx OldImage.img NewImage.vhdx``
+``docker run -it --rm=true -v "`pwd`":/tmp ghcr.io/i814u2/qemu-img convert -p -f raw -O vhdx OldImage.img NewImage.vhdx``
