@@ -1,4 +1,4 @@
-name: qemu-img-docker
+name: qemu-img
 on:
   push:
     branches: main
